@@ -1,0 +1,224 @@
+================================================================================
+CASO DE USO 2: Algoritmo de Consenso con Incertidumbre
+================================================================================
+Fecha de ejecución: 2026-01-19 11:23:22
+================================================================================
+
+
+================================================================================
+EXPERIMENTO 2 1
+================================================================================
+
+Resultados promedio (10 ejecuciones):
+--------------------------------------------------------------------------------
+  balance_carga                 :       1.25 ± 0.41
+  distancia_total               :      74.90 ± 9.94
+  error_estimacion              :       0.78 ± 0.40
+  rondas_ejecutadas             :     425.00 ± 469.57
+  rondas_total                  :     425.00 ± 469.57
+  tasa_completitud              :       0.92 ± 0.10
+  tasa_exito_incertidumbre      :       0.92 ± 0.10
+
+Resultados individuales:
+--------------------------------------------------------------------------------
+
+Ejecución 1:
+  balance_carga                 :       0.75
+  distancia_total               :      68.00
+  error_estimacion              :       0.75
+  rondas_ejecutadas             :    1000.00
+  rondas_total                  :    1000.00
+  tasa_completitud              :       0.90
+  tasa_exito_incertidumbre      :       0.90
+
+Ejecución 2:
+  balance_carga                 :       1.26
+  distancia_total               :      74.00
+  error_estimacion              :       1.00
+  rondas_ejecutadas             :      32.00
+  rondas_total                  :      32.00
+  tasa_completitud              :       1.00
+  tasa_exito_incertidumbre      :       1.00
+
+Ejecución 3:
+  balance_carga                 :       1.17
+  distancia_total               :      70.00
+  error_estimacion              :       0.88
+  rondas_ejecutadas             :    1000.00
+  rondas_total                  :    1000.00
+  tasa_completitud              :       0.90
+  tasa_exito_incertidumbre      :       0.90
+
+Ejecución 4:
+  balance_carga                 :       1.50
+  distancia_total               :      79.00
+  error_estimacion              :       1.00
+  rondas_ejecutadas             :    1000.00
+  rondas_total                  :    1000.00
+  tasa_completitud              :       0.70
+  tasa_exito_incertidumbre      :       0.70
+
+Ejecución 5:
+  balance_carga                 :       0.98
+  distancia_total               :      79.00
+  error_estimacion              :       0.00
+  rondas_ejecutadas             :      49.00
+  rondas_total                  :      49.00
+  tasa_completitud              :       0.90
+  tasa_exito_incertidumbre      :       0.90
+
+Ejecución 6:
+  balance_carga                 :       1.10
+  distancia_total               :      61.00
+  error_estimacion              :       1.00
+  rondas_ejecutadas             :      26.00
+  rondas_total                  :      26.00
+  tasa_completitud              :       1.00
+  tasa_exito_incertidumbre      :       1.00
+
+Ejecución 7:
+  balance_carga                 :       1.62
+  distancia_total               :      81.00
+  error_estimacion              :       1.12
+  rondas_ejecutadas             :    1000.00
+  rondas_total                  :    1000.00
+  tasa_completitud              :       0.80
+  tasa_exito_incertidumbre      :       0.80
+
+Ejecución 8:
+  balance_carga                 :       0.63
+  distancia_total               :      99.00
+  error_estimacion              :       1.00
+  rondas_ejecutadas             :      47.00
+  rondas_total                  :      47.00
+  tasa_completitud              :       1.00
+  tasa_exito_incertidumbre      :       1.00
+
+Ejecución 9:
+  balance_carga                 :       2.10
+  distancia_total               :      68.00
+  error_estimacion              :       1.00
+  rondas_ejecutadas             :      61.00
+  rondas_total                  :      61.00
+  tasa_completitud              :       1.00
+  tasa_exito_incertidumbre      :       1.00
+
+Ejecución 10:
+  balance_carga                 :       1.41
+  distancia_total               :      70.00
+  error_estimacion              :       0.00
+  rondas_ejecutadas             :      35.00
+  rondas_total                  :      35.00
+  tasa_completitud              :       1.00
+  tasa_exito_incertidumbre      :       1.00
+
+================================================================================
+EXPERIMENTO 2 2
+================================================================================
+
+Resultados promedio (10 ejecuciones):
+--------------------------------------------------------------------------------
+  balance_carga                 :       0.81 ± 0.34
+  distancia_total               :     158.00 ± 36.46
+  error_estimacion              :       1.61 ± 0.22
+  rondas_ejecutadas             :     911.40 ± 265.80
+  rondas_total                  :     911.40 ± 265.80
+  tasa_completitud              :       0.66 ± 0.20
+  tasa_exito_incertidumbre      :       0.66 ± 0.20
+
+Resultados individuales:
+--------------------------------------------------------------------------------
+
+Ejecución 1:
+  balance_carga                 :       0.49
+  distancia_total               :     148.00
+  error_estimacion              :       1.75
+  rondas_ejecutadas             :    1000.00
+  rondas_total                  :    1000.00
+  tasa_completitud              :       0.70
+  tasa_exito_incertidumbre      :       0.70
+
+Ejecución 2:
+  balance_carga                 :       0.98
+  distancia_total               :     113.00
+  error_estimacion              :       1.33
+  rondas_ejecutadas             :    1000.00
+  rondas_total                  :    1000.00
+  tasa_completitud              :       0.60
+  tasa_exito_incertidumbre      :       0.60
+
+Ejecución 3:
+  balance_carga                 :       1.50
+  distancia_total               :     158.00
+  error_estimacion              :       1.44
+  rondas_ejecutadas             :    1000.00
+  rondas_total                  :    1000.00
+  tasa_completitud              :       0.80
+  tasa_exito_incertidumbre      :       0.80
+
+Ejecución 4:
+  balance_carga                 :       0.40
+  distancia_total               :      96.00
+  error_estimacion              :       1.50
+  rondas_ejecutadas             :    1000.00
+  rondas_total                  :    1000.00
+  tasa_completitud              :       0.40
+  tasa_exito_incertidumbre      :       0.40
+
+Ejecución 5:
+  balance_carga                 :       0.75
+  distancia_total               :     193.00
+  error_estimacion              :       1.93
+  rondas_ejecutadas             :    1000.00
+  rondas_total                  :    1000.00
+  tasa_completitud              :       0.60
+  tasa_exito_incertidumbre      :       0.60
+
+Ejecución 6:
+  balance_carga                 :       1.17
+  distancia_total               :     160.00
+  error_estimacion              :       1.71
+  rondas_ejecutadas             :    1000.00
+  rondas_total                  :    1000.00
+  tasa_completitud              :       0.60
+  tasa_exito_incertidumbre      :       0.60
+
+Ejecución 7:
+  balance_carga                 :       0.89
+  distancia_total               :     206.00
+  error_estimacion              :       1.80
+  rondas_ejecutadas             :     114.00
+  rondas_total                  :     114.00
+  tasa_completitud              :       1.00
+  tasa_exito_incertidumbre      :       1.00
+
+Ejecución 8:
+  balance_carga                 :       0.98
+  distancia_total               :     197.00
+  error_estimacion              :       1.83
+  rondas_ejecutadas             :    1000.00
+  rondas_total                  :    1000.00
+  tasa_completitud              :       0.90
+  tasa_exito_incertidumbre      :       0.90
+
+Ejecución 9:
+  balance_carga                 :       0.49
+  distancia_total               :     121.00
+  error_estimacion              :       1.21
+  rondas_ejecutadas             :    1000.00
+  rondas_total                  :    1000.00
+  tasa_completitud              :       0.30
+  tasa_exito_incertidumbre      :       0.30
+
+Ejecución 10:
+  balance_carga                 :       0.49
+  distancia_total               :     188.00
+  error_estimacion              :       1.60
+  rondas_ejecutadas             :    1000.00
+  rondas_total                  :    1000.00
+  tasa_completitud              :       0.70
+  tasa_exito_incertidumbre      :       0.70
+
+================================================================================
+FIN DEL REPORTE
+================================================================================

@@ -1,0 +1,661 @@
+================================================================================
+CASO DE USO 3: Comparación Directa entre Algoritmos
+================================================================================
+Fecha de ejecución: 2026-01-19 12:38:54
+================================================================================
+
+
+================================================================================
+ESCENARIO 3 1
+================================================================================
+
+ALGORITMO 1 (Greedy Distribuido) - Promedio (10 ejecuciones):
+--------------------------------------------------------------------------------
+  balance_carga                 :       0.51 ± 0.52
+  distancia_total               :      73.70 ± 11.55
+  error_estimacion              :       0.00 ± 0.00
+  rondas_ejecutadas             :      32.60 ± 10.57
+  rondas_total                  :      32.60 ± 10.57
+  tasa_completitud              :       0.99 ± 0.03
+  tasa_exito_incertidumbre      :       0.99 ± 0.03
+
+ALGORITMO 2 (Consenso con Incertidumbre) - Promedio (10 ejecuciones):
+--------------------------------------------------------------------------------
+  balance_carga                 :       1.37 ± 0.57
+  distancia_total               :      74.20 ± 12.80
+  error_estimacion              :       0.00 ± 0.00
+  rondas_ejecutadas             :      42.90 ± 12.65
+  rondas_total                  :      42.90 ± 12.65
+  tasa_completitud              :       1.00 ± 0.00
+  tasa_exito_incertidumbre      :       1.00 ± 0.00
+
+COMPARACIÓN (Consenso - Greedy):
+--------------------------------------------------------------------------------
+  balance_carga                 :       0.86
+  distancia_total               :       0.50
+  error_estimacion              :       0.00
+  rondas_ejecutadas             :      10.30
+  rondas_total                  :      10.30
+  tasa_completitud              :       0.01
+  tasa_exito_incertidumbre      :       0.01
+
+Resultados individuales:
+--------------------------------------------------------------------------------
+
+Ejecución 1:
+  Greedy:
+    balance_carga                 :       1.26
+    distancia_total               :      72.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      42.00
+    rondas_total                  :      42.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       1.10
+    distancia_total               :      68.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      44.00
+    rondas_total                  :      44.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+
+Ejecución 2:
+  Greedy:
+    balance_carga                 :       0.63
+    distancia_total               :      68.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      26.00
+    rondas_total                  :      26.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       1.41
+    distancia_total               :      68.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      35.00
+    rondas_total                  :      35.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+
+Ejecución 3:
+  Greedy:
+    balance_carga                 :       0.00
+    distancia_total               :      71.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      23.00
+    rondas_total                  :      23.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       1.10
+    distancia_total               :      70.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      35.00
+    rondas_total                  :      35.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+
+Ejecución 4:
+  Greedy:
+    balance_carga                 :       0.00
+    distancia_total               :      91.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      34.00
+    rondas_total                  :      34.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       1.90
+    distancia_total               :      89.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      64.00
+    rondas_total                  :      64.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+
+Ejecución 5:
+  Greedy:
+    balance_carga                 :       0.40
+    distancia_total               :      66.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      28.00
+    rondas_total                  :      28.00
+    tasa_completitud              :       0.90
+    tasa_exito_incertidumbre      :       0.90
+  Consenso:
+    balance_carga                 :       1.26
+    distancia_total               :      76.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      38.00
+    rondas_total                  :      38.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+
+Ejecución 6:
+  Greedy:
+    balance_carga                 :       0.63
+    distancia_total               :      57.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      20.00
+    rondas_total                  :      20.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       1.10
+    distancia_total               :      59.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      27.00
+    rondas_total                  :      27.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+
+Ejecución 7:
+  Greedy:
+    balance_carga                 :       0.63
+    distancia_total               :      89.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      47.00
+    rondas_total                  :      47.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       2.45
+    distancia_total               :      88.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      60.00
+    rondas_total                  :      60.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+
+Ejecución 8:
+  Greedy:
+    balance_carga                 :       0.00
+    distancia_total               :      91.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      29.00
+    rondas_total                  :      29.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       0.63
+    distancia_total               :      99.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      47.00
+    rondas_total                  :      47.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+
+Ejecución 9:
+  Greedy:
+    balance_carga                 :       1.55
+    distancia_total               :      65.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      53.00
+    rondas_total                  :      53.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       2.10
+    distancia_total               :      60.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      54.00
+    rondas_total                  :      54.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+
+Ejecución 10:
+  Greedy:
+    balance_carga                 :       0.00
+    distancia_total               :      67.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      24.00
+    rondas_total                  :      24.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       0.63
+    distancia_total               :      65.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      25.00
+    rondas_total                  :      25.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+
+================================================================================
+ESCENARIO 3 2
+================================================================================
+
+ALGORITMO 1 (Greedy Distribuido) - Promedio (10 ejecuciones):
+--------------------------------------------------------------------------------
+  balance_carga                 :       0.51 ± 0.52
+  distancia_total               :      73.70 ± 11.55
+  error_estimacion              :       0.00 ± 0.00
+  rondas_ejecutadas             :      32.70 ± 10.58
+  rondas_total                  :      32.70 ± 10.58
+  tasa_completitud              :       0.99 ± 0.03
+  tasa_exito_incertidumbre      :       0.99 ± 0.03
+
+ALGORITMO 2 (Consenso con Incertidumbre) - Promedio (10 ejecuciones):
+--------------------------------------------------------------------------------
+  balance_carga                 :       0.91 ± 0.52
+  distancia_total               :      91.00 ± 28.95
+  error_estimacion              :       1.08 ± 0.20
+  rondas_ejecutadas             :     623.60 ± 461.03
+  rondas_total                  :     623.60 ± 461.03
+  tasa_completitud              :       0.79 ± 0.23
+  tasa_exito_incertidumbre      :       0.79 ± 0.23
+
+COMPARACIÓN (Consenso - Greedy):
+--------------------------------------------------------------------------------
+  balance_carga                 :       0.40
+  distancia_total               :      17.30
+  error_estimacion              :       1.08
+  rondas_ejecutadas             :     590.90
+  rondas_total                  :     590.90
+  tasa_completitud              :      -0.20
+  tasa_exito_incertidumbre      :      -0.20
+
+Resultados individuales:
+--------------------------------------------------------------------------------
+
+Ejecución 1:
+  Greedy:
+    balance_carga                 :       1.26
+    distancia_total               :      72.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      42.00
+    rondas_total                  :      42.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       0.75
+    distancia_total               :      56.00
+    error_estimacion              :       1.00
+    rondas_ejecutadas             :    1000.00
+    rondas_total                  :    1000.00
+    tasa_completitud              :       0.60
+    tasa_exito_incertidumbre      :       0.60
+
+Ejecución 2:
+  Greedy:
+    balance_carga                 :       0.63
+    distancia_total               :      68.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      26.00
+    rondas_total                  :      26.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       1.17
+    distancia_total               :      86.00
+    error_estimacion              :       1.08
+    rondas_ejecutadas             :    1000.00
+    rondas_total                  :    1000.00
+    tasa_completitud              :       0.90
+    tasa_exito_incertidumbre      :       0.90
+
+Ejecución 3:
+  Greedy:
+    balance_carga                 :       0.00
+    distancia_total               :      71.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      23.00
+    rondas_total                  :      23.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       1.50
+    distancia_total               :     121.00
+    error_estimacion              :       1.33
+    rondas_ejecutadas             :    1000.00
+    rondas_total                  :    1000.00
+    tasa_completitud              :       0.80
+    tasa_exito_incertidumbre      :       0.80
+
+Ejecución 4:
+  Greedy:
+    balance_carga                 :       0.00
+    distancia_total               :      91.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      35.00
+    rondas_total                  :      35.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       1.90
+    distancia_total               :     101.00
+    error_estimacion              :       1.00
+    rondas_ejecutadas             :      68.00
+    rondas_total                  :      68.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+
+Ejecución 5:
+  Greedy:
+    balance_carga                 :       0.40
+    distancia_total               :      66.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      28.00
+    rondas_total                  :      28.00
+    tasa_completitud              :       0.90
+    tasa_exito_incertidumbre      :       0.90
+  Consenso:
+    balance_carga                 :       0.00
+    distancia_total               :      86.00
+    error_estimacion              :       0.90
+    rondas_ejecutadas             :    1000.00
+    rondas_total                  :    1000.00
+    tasa_completitud              :       0.50
+    tasa_exito_incertidumbre      :       0.50
+
+Ejecución 6:
+  Greedy:
+    balance_carga                 :       0.63
+    distancia_total               :      57.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      20.00
+    rondas_total                  :      20.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       1.26
+    distancia_total               :     108.00
+    error_estimacion              :       1.20
+    rondas_ejecutadas             :      54.00
+    rondas_total                  :      54.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+
+Ejecución 7:
+  Greedy:
+    balance_carga                 :       0.63
+    distancia_total               :      89.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      47.00
+    rondas_total                  :      47.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       0.63
+    distancia_total               :      99.00
+    error_estimacion              :       1.50
+    rondas_ejecutadas             :      46.00
+    rondas_total                  :      46.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+
+Ejecución 8:
+  Greedy:
+    balance_carga                 :       0.00
+    distancia_total               :      91.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      29.00
+    rondas_total                  :      29.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       0.63
+    distancia_total               :     138.00
+    error_estimacion              :       0.75
+    rondas_ejecutadas             :      68.00
+    rondas_total                  :      68.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+
+Ejecución 9:
+  Greedy:
+    balance_carga                 :       1.55
+    distancia_total               :      65.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      53.00
+    rondas_total                  :      53.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       0.49
+    distancia_total               :      32.00
+    error_estimacion              :       1.00
+    rondas_ejecutadas             :    1000.00
+    rondas_total                  :    1000.00
+    tasa_completitud              :       0.30
+    tasa_exito_incertidumbre      :       0.30
+
+Ejecución 10:
+  Greedy:
+    balance_carga                 :       0.00
+    distancia_total               :      67.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      24.00
+    rondas_total                  :      24.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       0.80
+    distancia_total               :      83.00
+    error_estimacion              :       1.08
+    rondas_ejecutadas             :    1000.00
+    rondas_total                  :    1000.00
+    tasa_completitud              :       0.80
+    tasa_exito_incertidumbre      :       0.80
+
+================================================================================
+ESCENARIO 3 3
+================================================================================
+
+ALGORITMO 1 (Greedy Distribuido) - Promedio (10 ejecuciones):
+--------------------------------------------------------------------------------
+  balance_carga                 :       0.51 ± 0.52
+  distancia_total               :      73.70 ± 11.55
+  error_estimacion              :       0.00 ± 0.00
+  rondas_ejecutadas             :      32.70 ± 10.58
+  rondas_total                  :      32.70 ± 10.58
+  tasa_completitud              :       0.99 ± 0.03
+  tasa_exito_incertidumbre      :       0.99 ± 0.03
+
+ALGORITMO 2 (Consenso con Incertidumbre) - Promedio (10 ejecuciones):
+--------------------------------------------------------------------------------
+  balance_carga                 :       0.77 ± 0.19
+  distancia_total               :     412.40 ± 86.61
+  error_estimacion              :       2.18 ± 0.41
+  rondas_ejecutadas             :    1000.00 ± 0.00
+  rondas_total                  :    1000.00 ± 0.00
+  tasa_completitud              :       0.46 ± 0.14
+  tasa_exito_incertidumbre      :       0.46 ± 0.14
+
+COMPARACIÓN (Consenso - Greedy):
+--------------------------------------------------------------------------------
+  balance_carga                 :       0.26
+  distancia_total               :     338.70
+  error_estimacion              :       2.18
+  rondas_ejecutadas             :     967.30
+  rondas_total                  :     967.30
+  tasa_completitud              :      -0.53
+  tasa_exito_incertidumbre      :      -0.53
+
+Resultados individuales:
+--------------------------------------------------------------------------------
+
+Ejecución 1:
+  Greedy:
+    balance_carga                 :       1.26
+    distancia_total               :      72.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      42.00
+    rondas_total                  :      42.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       0.63
+    distancia_total               :     318.00
+    error_estimacion              :       1.75
+    rondas_ejecutadas             :    1000.00
+    rondas_total                  :    1000.00
+    tasa_completitud              :       0.50
+    tasa_exito_incertidumbre      :       0.50
+
+Ejecución 2:
+  Greedy:
+    balance_carga                 :       0.63
+    distancia_total               :      68.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      26.00
+    rondas_total                  :      26.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       0.80
+    distancia_total               :     315.00
+    error_estimacion              :       1.67
+    rondas_ejecutadas             :    1000.00
+    rondas_total                  :    1000.00
+    tasa_completitud              :       0.30
+    tasa_exito_incertidumbre      :       0.30
+
+Ejecución 3:
+  Greedy:
+    balance_carga                 :       0.00
+    distancia_total               :      71.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      23.00
+    rondas_total                  :      23.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       0.80
+    distancia_total               :     568.00
+    error_estimacion              :       1.61
+    rondas_ejecutadas             :    1000.00
+    rondas_total                  :    1000.00
+    tasa_completitud              :       0.30
+    tasa_exito_incertidumbre      :       0.30
+
+Ejecución 4:
+  Greedy:
+    balance_carga                 :       0.00
+    distancia_total               :      91.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      35.00
+    rondas_total                  :      35.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       1.17
+    distancia_total               :     432.00
+    error_estimacion              :       2.38
+    rondas_ejecutadas             :    1000.00
+    rondas_total                  :    1000.00
+    tasa_completitud              :       0.60
+    tasa_exito_incertidumbre      :       0.60
+
+Ejecución 5:
+  Greedy:
+    balance_carga                 :       0.40
+    distancia_total               :      66.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      28.00
+    rondas_total                  :      28.00
+    tasa_completitud              :       0.90
+    tasa_exito_incertidumbre      :       0.90
+  Consenso:
+    balance_carga                 :       0.80
+    distancia_total               :     455.00
+    error_estimacion              :       2.10
+    rondas_ejecutadas             :    1000.00
+    rondas_total                  :    1000.00
+    tasa_completitud              :       0.30
+    tasa_exito_incertidumbre      :       0.30
+
+Ejecución 6:
+  Greedy:
+    balance_carga                 :       0.63
+    distancia_total               :      57.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      20.00
+    rondas_total                  :      20.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       1.02
+    distancia_total               :     378.00
+    error_estimacion              :       2.78
+    rondas_ejecutadas             :    1000.00
+    rondas_total                  :    1000.00
+    tasa_completitud              :       0.70
+    tasa_exito_incertidumbre      :       0.70
+
+Ejecución 7:
+  Greedy:
+    balance_carga                 :       0.63
+    distancia_total               :      89.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      47.00
+    rondas_total                  :      47.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       0.63
+    distancia_total               :     416.00
+    error_estimacion              :       2.25
+    rondas_ejecutadas             :    1000.00
+    rondas_total                  :    1000.00
+    tasa_completitud              :       0.50
+    tasa_exito_incertidumbre      :       0.50
+
+Ejecución 8:
+  Greedy:
+    balance_carga                 :       0.00
+    distancia_total               :      91.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      29.00
+    rondas_total                  :      29.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       0.75
+    distancia_total               :     347.00
+    error_estimacion              :       2.11
+    rondas_ejecutadas             :    1000.00
+    rondas_total                  :    1000.00
+    tasa_completitud              :       0.60
+    tasa_exito_incertidumbre      :       0.60
+
+Ejecución 9:
+  Greedy:
+    balance_carga                 :       1.55
+    distancia_total               :      65.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      53.00
+    rondas_total                  :      53.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       0.63
+    distancia_total               :     553.00
+    error_estimacion              :       2.90
+    rondas_ejecutadas             :    1000.00
+    rondas_total                  :    1000.00
+    tasa_completitud              :       0.50
+    tasa_exito_incertidumbre      :       0.50
+
+Ejecución 10:
+  Greedy:
+    balance_carga                 :       0.00
+    distancia_total               :      67.00
+    error_estimacion              :       0.00
+    rondas_ejecutadas             :      24.00
+    rondas_total                  :      24.00
+    tasa_completitud              :       1.00
+    tasa_exito_incertidumbre      :       1.00
+  Consenso:
+    balance_carga                 :       0.49
+    distancia_total               :     342.00
+    error_estimacion              :       2.25
+    rondas_ejecutadas             :    1000.00
+    rondas_total                  :    1000.00
+    tasa_completitud              :       0.30
+    tasa_exito_incertidumbre      :       0.30
+
+================================================================================
+FIN DEL REPORTE
+================================================================================
